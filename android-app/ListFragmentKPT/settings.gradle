@@ -1,0 +1,2 @@
+rootProject.name = "ListFragmentKPT"
+include ':app'

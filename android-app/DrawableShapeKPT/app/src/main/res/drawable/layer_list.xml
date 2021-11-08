@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/oak_tree" />
+    </item>
+    <item
+        android:right="500dp"
+        android:top="200dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/smile1" />
+    </item>
+    <item
+        android:bottom="300dp"
+        android:left="400dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/smile2" />
+    </item>
+</layer-list>

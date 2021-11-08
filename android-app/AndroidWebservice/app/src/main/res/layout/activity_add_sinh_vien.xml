@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddSinhVienActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle_AddSinhVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Thêm Sinh Viên"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textViewHoTen_AddSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle_AddSinhVien"
+        android:layout_marginTop="32dp"
+        android:hint="Nhập họ tên" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/textViewNamSinh_AddSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewHoTen_AddSinhVien"
+        android:layout_marginTop="16dp"
+        android:hint="Nhập năm sinh" />
+
+    <EditText
+        android:id="@+id/textViewDiaChi_AddSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNamSinh_AddSinhVien"
+        android:layout_marginTop="16dp"
+        android:hint="Nhập địa chỉ" />
+
+    <Button
+        android:id="@+id/buttonThem_AddSinhVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDiaChi_AddSinhVien"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="30dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/buttonHuy_AddSinhVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDiaChi_AddSinhVien"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/buttonThem_AddSinhVien"
+        android:text="Hủy" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">International App</string>
+    <string name="text_TieuDe">信息表</string>
+    <string name="hint_hoTen">输入您的名字和姓氏</string>
+    <string name="hint_email">输入电子邮件</string>
+    <string name="hint_soDienThoai">输入你的电话号码</string>
+    <string name="text_xacNhan">确认</string>
+    <string name="text_chaoBan">你好</string>
+    <string name="text_email" translatable="false">电子邮件</string>
+    <string name="text_soDienThoai">电话号码</string>
+    <string name="text_DoiNgonNgu">语言</string>
+</resources>

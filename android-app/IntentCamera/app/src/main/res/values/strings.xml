@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent Camera</string>
+    <string name="educationCameraUI">This feature required access camera</string>
+    <string name="cameraPermissionDenied">Camera permission denied!</string>
+</resources>

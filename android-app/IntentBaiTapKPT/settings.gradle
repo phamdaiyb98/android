@@ -1,0 +1,2 @@
+rootProject.name = "Intent Bai TapKPT"
+include ':app'

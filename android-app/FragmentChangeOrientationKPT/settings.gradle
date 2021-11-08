@@ -1,0 +1,2 @@
+rootProject.name = "FragmentChangeOrientationKPT"
+include ':app'

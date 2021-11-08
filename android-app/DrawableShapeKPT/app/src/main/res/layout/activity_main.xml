@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    khi custom lại checkbox cần thêm android:buttonTint="@android:color/transparent" và-->
+    <!--    android:buttonTintMode="add" mới lấy được hình-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/custom_button"
+        android:text="Button"
+        android:textColor="#18534E"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/custom_selector"
+        android:text="Button"
+        android:textColor="@drawable/custom_color"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="488dp"
+        android:button="@drawable/custom_checkbox"
+        android:buttonTint="@android:color/transparent"
+        android:buttonTintMode="add"
+        android:checked="true"
+        android:text="CheckBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:layout_width="132dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/button">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radio"
+            android:buttonTint="@android:color/transparent"
+            android:buttonTintMode="add"
+            android:text="Android" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radio"
+            android:buttonTint="@android:color/transparent"
+            android:buttonTintMode="add"
+            android:text="IOS" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageViewOakTree"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        app:srcCompat="@drawable/clip" />
+
+    <Button
+        android:id="@+id/buttonClip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="32dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewOakTree" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

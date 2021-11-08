@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">International App</string>
+    <string name="text_TieuDe">Information Form</string>
+    <string name="hint_hoTen">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_soDienThoai">Enter your phone</string>
+    <string name="text_xacNhan">Confirm</string>
+    <string name="text_chaoBan">Hello</string>
+    <string name="text_email">Email</string>
+    <string name="text_soDienThoai">Phone number</string>
+    <string name="text_DoiNgonNgu">Language</string>
+
+    <!--untranslatable-->
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_chinese" translatable="false">中文</string>
+    <string name="language_vietnamese" translatable="false">Tiếng Việt</string>
+
+    <string-array name="language_names">
+        <item>@string/language_english</item>
+        <item>@string/language_chinese</item>
+        <item>@string/language_vietnamese</item>
+    </string-array>
+
+    <string name="language_english_code" translatable="false">en</string>
+    <string name="language_chinese_code" translatable="false">cn</string>
+    <string name="language_vietnamese_code" translatable="false">vi</string>
+
+    <string-array name="language_codes">
+        <item>@string/language_english_code</item>
+        <item>@string/language_chinese_code</item>
+        <item>@string/language_vietnamese_code</item>
+    </string-array>
+</resources>

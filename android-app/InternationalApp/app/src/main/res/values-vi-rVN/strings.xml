@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_email">Nhập email</string>
+    <string name="hint_hoTen">Nhập họ tên</string>
+    <string name="hint_soDienThoai">Nhập số điện thoại</string>
+    <string name="text_TieuDe">Phiếu thông tin</string>
+    <string name="text_xacNhan">Xác nhận</string>
+    <string name="text_chaoBan">Chào bạn</string>
+    <string name="text_soDienThoai">Số điện thoại</string>
+    <string name="text_email">Email</string>
+    <string name="text_DoiNgonNgu">Ngôn ngữ</string>
+    <string name="app_name">International App</string>
+</resources>

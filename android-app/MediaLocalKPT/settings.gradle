@@ -1,0 +1,2 @@
+rootProject.name = "MediaLocalKPT"
+include ':app'

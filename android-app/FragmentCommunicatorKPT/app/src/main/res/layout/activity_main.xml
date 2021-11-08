@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle_Main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textColor="#ff0000"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/buttonChangeText_Main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Text" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerA_Main"
+        android:name="com.haui.phamdai.fragmentcommunicatorkpt.AFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerB_Main"
+        android:name="com.haui.phamdai.fragmentcommunicatorkpt.BFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

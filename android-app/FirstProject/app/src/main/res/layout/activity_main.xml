@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="24dp"
+        android:background="#E6E1E1"
+        android:gravity="center"
+        android:text="True Random Number Generator"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+    <EditText
+        android:id="@+id/edtMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMin" />
+
+    <TextView
+        android:id="@+id/txtMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="70dp"
+        android:text="Min"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+    <TextView
+        android:id="@+id/txtMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="42dp"
+        android:text="Max"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMin" />
+
+    <Button
+        android:id="@+id/btnGenerator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Generator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMax" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Result:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGenerator" />
+
+    <TextView
+        android:id="@+id/txtShowResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Result Show"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResult" />
+</androidx.constraintlayout.widget.ConstraintLayout><!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="32dp"-->
+    <!--        android:layout_marginTop="60dp"-->
+    <!--        android:layout_marginEnd="32dp"-->
+    <!--        android:text="Đăng nhập hệ thống"-->
+    <!--        android:textSize="24sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextEmailAddress"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginTop="48dp"-->
+    <!--        android:layout_marginEnd="16dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Email"-->
+    <!--        android:inputType="textEmailAddress"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextPassword"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginTop="36dp"-->
+    <!--        android:layout_marginEnd="16dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Mật khẩu"-->
+    <!--        android:inputType="textPassword"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="148dp"-->
+    <!--        android:layout_marginTop="48dp"-->
+    <!--        android:onClick="xacNhanOnClick"-->
+    <!--        android:text="Xác nhận"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="151dp"-->
+    <!--        android:layout_height="158dp"-->
+    <!--        android:layout_marginStart="128dp"-->
+    <!--        android:layout_marginTop="40dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button"-->
+    <!--        app:srcCompat="@drawable/ic_launcher_foreground" />-->
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--<TableLayout android:layout_height="match_parent"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:stretchColumns="*"-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--    <TableRow>-->
+    <!--        <TextView-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_span="4"-->
+    <!--            android:text="Android"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#ff00"-->
+    <!--            ></TextView>-->
+    <!--    </TableRow>-->
+    <!--    <TableRow>-->
+    <!--        <TextView-->
+    <!--            android:text="Android"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#ff00"-->
+    <!--            ></TextView>-->
+    <!--        <TextView-->
+    <!--            android:text="Android"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#ff00"-->
+    <!--            ></TextView>-->
+    <!--    </TableRow>-->
+    <!--    <TableRow>-->
+    <!--        <TextView-->
+    <!--            android:text="Android"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#ff00"-->
+    <!--            ></TextView>-->
+    <!--        <TextView-->
+    <!--            android:text="Android"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#ff00"-->
+    <!--            ></TextView>-->
+    <!--        <TextView-->
+    <!--            android:text="Android"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#ff00"-->
+    <!--            ></TextView>-->
+    <!--        <TextView-->
+    <!--            android:text="Android"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:textColor="#ff00"-->
+    <!--            ></TextView>-->
+    <!--    </TableRow>-->
+    <!--</TableLayout>-->
+    <!--<FrameLayout android:layout_height="match_parent"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--    <ImageView-->
+    <!--        android:src="@drawable/ic_launcher_foreground"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"></ImageView>-->
+    <!--</FrameLayout>-->

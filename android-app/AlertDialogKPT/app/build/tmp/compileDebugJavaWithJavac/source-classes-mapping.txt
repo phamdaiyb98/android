@@ -1,0 +1,4 @@
+com/haui/phamdai/alertdialogkpt/BuildConfig.java
+ com.haui.phamdai.alertdialogkpt.BuildConfig
+com/haui/phamdai/alertdialogkpt/MainActivity.java
+ com.haui.phamdai.alertdialogkpt.MainActivity
